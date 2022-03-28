@@ -7,12 +7,11 @@ An application programming interface, or API, enables companies to open up their
 An API is a set of defined rules that explain how computers or applications communicate with one another. APIs sit between an application and the web server, acting as an intermediary layer that processes data transfer between systems.
 
 <b> Here’s how an API works:</b>
-<ui>
-A client application initiates an API call to retrieve information—also known as a request. This request is processed from an application to the web server via the API’s Uniform Resource Identifier (URI) and includes a request verb, headers, and sometimes, a request body.
-After receiving a valid request, the API makes a call to the external program or web server.
-The server sends a response to the API with the requested information.
-The API transfers the data to the initial requesting application.
-</ui>
+1. A client application initiates an API call to retrieve information—also known as a request. 2. This request is processed from an application to the web server via the API’s Uniform Resource Identifier (URI) and includes a request verb, headers, and sometimes, a request body.
+3. After receiving a valid request, the API makes a call to the external program or web server.
+4. The server sends a response to the API with the requested information.
+5. The API transfers the data to the initial requesting application.
+
 While the data transfer will differ depending on the web service being used, this process of requests and response all happens through an API. Whereas a user interface is designed for use by humans, APIs are designed for use by a computer or application.
 
 #### About this API
